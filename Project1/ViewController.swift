@@ -28,11 +28,14 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationController?.navigationBar.prefersLargeTitles = true
+        title = "Storm Viewer"
+        
         loadPictures()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        pictures.count
+        return pictures.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -40,6 +43,21 @@ class ViewController: UITableViewController {
         cell.textLabel?.text = pictures[indexPath.row]
         
         return cell
+    }
+    
+    func openDetailView(pictureIndex: Int) {
+        let picture = pictures[pictureIndex]
+        
+        guard let detailViewController = storyboard?.instantiateViewController(identifier: "Detail") as? DetailViewController else {
+            return
+        }
+        
+        detailViewController.selectedImage = picture
+        navigationController?.pushViewController(detailViewController, animated: true)
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        openDetailView(pictureIndex: indexPath.row)
     }
 }
 
