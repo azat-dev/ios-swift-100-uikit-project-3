@@ -22,6 +22,8 @@ class ViewController: UITableViewController {
             }
         }
         
+        pictures.sort()
+        
         print("Pictures: \(pictures)")
     }
     
@@ -53,6 +55,9 @@ class ViewController: UITableViewController {
         }
         
         detailViewController.selectedImage = picture
+        detailViewController.totalNumberOfImages = picture.count
+        detailViewController.selectedImageIndex = pictureIndex
+        
         navigationController?.pushViewController(detailViewController, animated: true)
     }
     
