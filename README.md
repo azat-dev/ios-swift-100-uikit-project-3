@@ -7,7 +7,5 @@ The stack of technologies which I used in this project:
 - Storyboards
 
 I've learned:
-- How to read and list files inside bundle with FileManager
-- How to implement screens with UIViewController
-- How to implement tables with UITableViewController
-- The lifecycle of the UIViewController
+- How to create navigation bar's buttons and use UIBarButtonItem
+- How to use UIActivityViewController
