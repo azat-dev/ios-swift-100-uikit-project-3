@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA36026726518DA1001370CF /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA36026726518DA1001370CF /* Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA36026A26518DA1001370CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA36026C26518DA1001370CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AA36026E26518DA1001370CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		AA36025E26518DA1001370CF = {
 			isa = PBXGroup;
 			children = (
-				AA36026926518DA1001370CF /* Project1 */,
+				AA36026926518DA1001370CF /* Project3 */,
 				AA36026826518DA1001370CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		AA36026826518DA1001370CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA36026726518DA1001370CF /* Project1.app */,
+				AA36026726518DA1001370CF /* Project3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA36026926518DA1001370CF /* Project1 */ = {
+		AA36026926518DA1001370CF /* Project3 */ = {
 			isa = PBXGroup;
 			children = (
 				AA36026A26518DA1001370CF /* AppDelegate.swift */,
@@ -88,7 +88,7 @@
 				AA36027826518DA2001370CF /* Info.plist */,
 				AA36027F26518EF4001370CF /* Content */,
 			);
-			path = Project1;
+			path = Project3;
 			sourceTree = "<group>";
 		};
 		AA36027F26518EF4001370CF /* Content */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA36026626518DA1001370CF /* Project1 */ = {
+		AA36026626518DA1001370CF /* Project3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA36027B26518DA2001370CF /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildConfigurationList = AA36027B26518DA2001370CF /* Build configuration list for PBXNativeTarget "Project3" */;
 			buildPhases = (
 				AA36026326518DA1001370CF /* Sources */,
 				AA36026426518DA1001370CF /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = Project1;
+			name = Project3;
 			productName = Project1;
-			productReference = AA36026726518DA1001370CF /* Project1.app */;
+			productReference = AA36026726518DA1001370CF /* Project3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA36026226518DA1001370CF /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = AA36026226518DA1001370CF /* Build configuration list for PBXProject "Project3" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA36026626518DA1001370CF /* Project1 */,
+				AA36026626518DA1001370CF /* Project3 */,
 			);
 		};
 /* End PBXProject section */
@@ -340,12 +340,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JWF52JVK7;
-				INFOPLIST_FILE = Project1/Info.plist;
+				INFOPLIST_FILE = Project3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Azat-Kaiumov.Project1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Azat-Kaiumov.Project3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -359,12 +359,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JWF52JVK7;
-				INFOPLIST_FILE = Project1/Info.plist;
+				INFOPLIST_FILE = Project3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Azat-Kaiumov.Project1";
+				PRODUCT_BUNDLE_IDENTIFIER = "Azat-Kaiumov.Project3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -374,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA36026226518DA1001370CF /* Build configuration list for PBXProject "Project1" */ = {
+		AA36026226518DA1001370CF /* Build configuration list for PBXProject "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA36027926518DA2001370CF /* Debug */,
@@ -383,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA36027B26518DA2001370CF /* Build configuration list for PBXNativeTarget "Project1" */ = {
+		AA36027B26518DA2001370CF /* Build configuration list for PBXNativeTarget "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA36027C26518DA2001370CF /* Debug */,

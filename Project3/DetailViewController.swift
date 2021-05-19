@@ -48,8 +48,10 @@ class DetailViewController: UIViewController {
             return
         }
         
+        let items = [URL(string: "https://www.apple.com")!]
+        
         let activityViewController = UIActivityViewController(
-            activityItems: [image],
+            activityItems: items,
             applicationActivities: []
         )
         
