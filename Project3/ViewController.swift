@@ -23,14 +23,17 @@ class ViewController: UITableViewController {
         }
         
         pictures.sort()
-        
-        print("Pictures: \(pictures)")
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.rightBarButtonItem = UIBarButtonItem(
+            barButtonSystemItem: .action,
+            target: self,
+            action: #selector(shareButtonTapped)
+        )
         title = "Storm Viewer"
         
         loadPictures()
@@ -63,6 +66,17 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         openDetailView(pictureIndex: indexPath.row)
+    }
+    
+    @objc func shareButtonTapped() {
+        let message = "Try to use \"Storm Viewer\". I liked it!"
+        let activity = UIActivityViewController(
+            activityItems: [message],
+            applicationActivities: nil
+        )
+        
+        activity.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+        present(activity, animated: true)
     }
 }
 

@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="fQS-fA-zn6">
             <objects>
-                <tableViewController id="yUA-RO-nLl" customClass="ViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="yUA-RO-nLl" customClass="ViewController" customModule="Project3" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3SR-RN-EXU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,7 +49,7 @@
         <!--Detail View Controller-->
         <scene sceneID="ZKQ-iv-0hX">
             <objects>
-                <viewController storyboardIdentifier="Detail" id="JoJ-k1-ExW" customClass="DetailViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Detail" id="JoJ-k1-ExW" customClass="DetailViewController" customModule="Project3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vFZ-pI-A8a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
